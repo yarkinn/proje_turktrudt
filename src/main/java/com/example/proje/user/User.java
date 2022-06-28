@@ -113,7 +113,7 @@ public class User{
     private String username;
     private String name_surname;
 
-
+    private String nameee;
 
     private String password;
     private String nation;
