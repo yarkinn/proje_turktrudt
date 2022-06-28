@@ -5,12 +5,12 @@ import javax.persistence.*;
 
 @Entity
 @Table
-public class User{
+public class Users{
 
-    public User() {
+    public Users() {
 
     }
-    public User( int id,String username, String name_surname, String password, String nation, String gender, String email, boolean authentication) {
+    public Users( int id,String username, String name_surname, String password, String nation, String gender, String email, boolean authentication) {
         this.id = id;
         this.username = username;
         this.name_surname = name_surname;
@@ -86,7 +86,7 @@ public class User{
     }
     @Override
     public String toString() {
-        return "User{" +
+        return "Users{" +
                 "id=" + id +
                 ", username='" + username + '\'' +
                 ", name_surname='" + name_surname + '\'' +
